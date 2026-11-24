@@ -1,0 +1,19 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Runtime state files
+*_state.json
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
